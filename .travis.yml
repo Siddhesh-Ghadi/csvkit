@@ -10,6 +10,8 @@ python:
   - "3.6"
   - "3.7"
   - "3.8"
+before_install:
+  - echo "TEST"
 install:
   - pip install -r requirements-py3.txt
   - pip install coveralls
